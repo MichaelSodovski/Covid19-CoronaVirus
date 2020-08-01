@@ -529,7 +529,8 @@ input[type=text], input[type=date] {
 
 #checkInput {
     position: absolute;
-    left: 70px;
+    left: 115px;
+    width: 140px;
 }
 
 #checkSPN {
