@@ -51,7 +51,7 @@ const getDataofcountries = () => {
             var totalConfirmed = document.getElementById('totalConfirmedSPN');
             totalConfirmed.innerHTML = (foundCountry.TotalConfirmed).toLocaleString();
             var totalRecovered = document.getElementById('totalRecoveredSPN');
-            totalRecovered.innerHTML = (foundCountry.NewRecovered).toLocaleString();
+            totalRecovered.innerHTML = (foundCountry.TotalRecovered).toLocaleString();
 
             var date = document.getElementById('dateSPN');
             var dateFormatted = ((foundCountry.Date).substr(0, 10)).split("-").reverse().join("-");
