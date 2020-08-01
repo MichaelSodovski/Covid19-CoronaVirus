@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title> Coronavirus COVID19 </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <section>
+
+        <header>
+            <h1 id="mainHeader"> Coronavirus COVID19 </h1>
+
+        </header>
+
+        <main>
+            <div id="inputsDiv">
+
+                <button id="getBtn"> <span> Global Summary </span> </button>
+                <br>
+                <label id="countryLBLlocate"> Country: </label>
+                <input type="text" id="countryInput" placeholder="Type a name of a country..."> </input>
+                <button id="locateBtn"> <span> Locate </span> </button>
+                <br>
+
+                <label id="CountryNameLBLByDate"> Country: </label> 
+                <input type="text" id="countryInputByDate" placeholder="Type a name of a country..."> </input> 
+
+                <label id="fromLBL"> From: </label>
+                <input type="date" id="fromInput"> </input>
+                <label id="toLBL"> To: </label>
+                <input type="date" id="toInput"> </input>
+                <button id="submitBTN"> <span> Submit </span> </button>
+            </div>
+
+
+            <div id="tableD">
+                <div id="summaryDiv">
+                    <label id="lblTotalConfirmed"> Total Confirmed: </label>
+                    <span id="TotalConfirmed"> </span>
+                    <br><br>
+                    <label id="lblTotalRecovered"> Total Recovered: </label>
+                    <span id="TotalRecovered"> </span>
+                </div>
+
+                <div id="countriesDiv">
+                    <label id="countryNameLBL"> Country Name: </label>
+                    <span id="selectedCountrySpN"> </span>
+                    <br>
+                    <label id="totalConfirmedLBL"> Total Confirmed: </label>
+                    <span id="totalConfirmedSPN"> </span>
+                    <br>
+                    <label id="totalRecoveredLBL"> Total Recovered: </label>
+                    <span id="totalRecoveredSPN"> </span>
+                    <br>
+                    <label id="dateLBL"> Date: </label>
+                    <span id="dateSPN"> </span>
+
+                    <div id="byDatesDiv">
+                        <label id="countryNameLBL2"> Country Name: </label>
+                        <span id="selectedCountrySpN2"></span>
+                        <br>
+
+                        <label id="fromDateLBL"> From: </label>
+                        <span id="fromDateSPN"></span>
+                        <label id="toDateLBL"> To: </label>
+                        <span id="toDateSPN"></span>
+                        <br>
+
+                        <label id="totalConfirmedLBL2"> Total Confirmed: </label>
+                        <span id="totalConfirmedSPN2"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="checkCasesDIV"> 
+                <div id="checkCasesInnerDIV"> 
+                    <label id="checkLBL"> Max: </label>
+                    <input type="text" id="checkInput"> </input> 
+                    <button id="checkBTN"> <span> Check </span> </button>
+                    <br><br>
+                    <span id="checkSPN"></span>
+                </div>
+
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>
