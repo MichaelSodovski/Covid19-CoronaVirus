@@ -21,6 +21,9 @@ const sendHTTRequest = (method, url) => {
         xhr.onload = () => {
             resolve(xhr.response);
         };
+        xhr.onerror = () => {
+            reject('Something went wrong!');
+        };
         xhr.send();
     });
     return promise;
